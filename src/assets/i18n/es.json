@@ -1,0 +1,179 @@
+{
+  "BUTTONS": {
+    "CLOSE": "Cerrar",
+    "EXIT": "Salir",
+    "RETURN_HOME": "Volver al inicio",
+    "YES": "Sí",
+    "NO": "No",
+    "START": "Empezar",
+    "CANCEL": "Cancelar",
+    "ACCEPT": "Aceptar",
+    "NEXT": "Siguiente",
+    "PREVIOUS": "Anterior"
+  },
+  "TXT": {
+    "NOT_SHOW_AGAIN": "No volver a mostrar",
+    "CONFIRM_EXIT_GAME": "¿Quieres cerrar la aplicación?",
+    "LOADING_IMAGES": "Cargando imagenes..."
+  },
+  "FIRE_POINTS": {
+    "HEAD_POINTS": "MORRO Y CUERNOS",
+    "BACK_POINTS": "COLA",
+    "ROQUETES": "Plaza Roquetes",
+    "RASA_SOLA": "Calle Rasa d'en Solà",
+    "LIRA": "La Lira",
+    "PONT_FRANSA": "Puente de França",
+    "QUATRE_FONTS": "Quatre Fonts",
+    "MURALLA": "Cruce Muralla / Carnisseria",
+    "PL_NOVA": "Plaza Nova",
+    "CAFES": "Calle Cafès",
+    "RAMBLA": "La Rambla",
+    "PL_VELLA": "Plaza Vella"
+  },
+  "HOME": {
+    "PLAY": "Jugar",
+    "INSTRUCTIONS": "Instrucciones"
+  },
+  "CONFIGURATION": {
+    "TITLE": "Configuración",
+    "VERSION": "Versión",
+    "LANGUAGE": {
+      "TITLE": "Idioma",
+      "OPTIONS": {
+        "SPANISH": "Castellano",
+        "CATALAN": "Catalán"
+      },
+      "HELP": "Con esta opción puedes cambiar el idioma que vas a usar en la aplicación"
+    },
+    "GAME_DIFFICULTY": {
+      "TITLE": "Dificultad del juego",
+      "OPTIONS": {
+        "EASY": "Fácil",
+        "MEDIUM": "Medio",
+        "HARD": "Dificil"
+      },
+      "HELP": "A más dificultad, las combinaciones serán más difíciles de recordar."
+    }
+  },
+  "PLAY_GAME_MODAL": {
+    "TITLE": "¿Cómo quieres jugar?",
+    "VIRTUAL": "Virtual",
+    "REAL": "Real"
+  },
+  "CHECK_INSTRUCTIONS_MODAL": {
+    "MESSAGE": "No has leído las instrucciones del juego.<br>¿Quieres hacerlo ahora?"
+  },
+  "EXIT_GAME_MODAL": {
+    "TITLE": "¿Quieres salir del juego (se perderá todo el progreso y puntos conseguidos en la partida)?"
+  },
+  "FIRE_POINTS_WARNING_MODAL": {
+    "MESSAGE": "<h1><strong><center>¡ATENCIÓN!</center></strong></h1><p>Recuerda que todos los puntos que has de buscar para cargar al Bou están en las aceras o zonas peatonales.</p><p>Aunque en la Cercavila de Foc se enciende en medio de la calle,<br><strong>¡NO TE PARES NUNCA EN MEDIO DE LA CALLE A JUGAR!</strong></p><p>Hazlo en las aceras o zonas peatonales.</p>"
+  },
+  "FIRE_POINT_CARD": {
+    "PENDING": "Pendiente",
+    "SCORE": "{{ score }} puntos",
+    "PLAY": "Jugar",
+    "NORMAL": "Normal",
+    "SPECIAL": "Especial"
+  },
+  "GAME": {
+    "CHECKING_GPS_INFO": "Comprobando coordenadas del punto de encendido",
+    "NOT_IN_FIRE_POINT": "No estas bastante cerca de punto de encendido.<br><br>No podemos cargar.<br><br>Estas a {{ value }} metros.",
+    "NOT_NEAR_FIRE_POINT": "Todavía no estas suficiente cerca del punto de encendido.<br><br>No podemos cargar.<br><br>Estas a {{ value }} metros.",
+    "ERROR_GET_FIRE_POINT": "No se ha podido saber donde estas, vuelve a probarlo",
+    "ERROR_GPS_PERMISSION": "El juego necesita el permiso de ubicación exacta. Se abrirá la configuración de la aplicación para que puedas configurarlo.",
+    "CHECK_POINTS_BUTTON": "¡Adelante!",
+    "FIREWORK_WANT_USE": "¿Qué cohete quieres usar?",
+    "YOUR_SCORE": "Has conseguido\n{{ score }} puntos",
+    "SUMMARY": {
+      "FIRE_POINT": "Punto de encendido",
+      "SCORE": "Puntuación",
+      "SCORE_RESULT": "Has conseguido {{ score }} puntos",
+      "SAVE_SCORES": "Guardar en la galeria",
+      "MUST_ENABLE_GALLERY_PERMISSION": "Debes habilitar los permisos de almacenaje en los ajustes de tu dispositivo",
+      "ERROR_SAVING_IMAGE": "Se ha producido un error al intentar guardar la imagen",
+      "ERROR_GET_ALBUM": "No se ha podido crear ni encontrar el álbum para guardar la imagen",
+      "ERROR_GET_IMAGE": "No se ha podido generar la imagen",
+      "SCORES_IMAGE_SAVED": "¡La imagen se ha guardado en la galeria!"
+    }
+  },
+  "FIREWORKS": {
+    "CARRETILLA": {
+      "NAME": "Carretilla",
+      "DESCRIPTION": "Es una carretilla normal, como las que usan los diablos"
+    },
+    "SORTIDOR": {
+      "NAME": "Surtidor",
+      "DESCRIPTION": "Surtidor de color blanco que dura unos 20 segundos"
+    },
+    "RONCADOR": {
+      "NAME": "Roncador",
+      "DESCRIPTION": "Surtidor que va silvando mientras esta encendido"
+    },
+    "SUPER_CARRETILLA": {
+      "NAME": "Super carretilla",
+      "DESCRIPTION": "Es como una carretilla, pero dura más rato encendida"
+    },
+    "CRACKER": {
+      "NAME": "Cracker",
+      "DESCRIPTION": "Surtidor que va haciendo chispas mientras esta encendido"
+    },
+    "VOLCANET": {
+      "NAME": "Volcán",
+      "DESCRIPTION": "Surtidor que acaba lanzando bolas de colores hacia arriba"
+    }
+  },
+  "INSTRUCTIONS": {
+    "SLIDE_1": {
+      "TITLE_1": "¡Hola!",
+      "TEXT_1": "Bienvenido al juego de cargar cohetes y carretillas.",
+      "TEXT_2": "En este juego tendrás que cargar los cohetes al Bou para cada encendida de la Cercavila de Foc."
+    },
+    "SLIDE_2": {
+      "TITLE_1": "Virtual o Real",
+      "TEXT_1": "Hay dos maneras de jugar, de forma virtual y de forma real.",
+      "TEXT_2": "Si quieres jugar de forma real tendrás que ir a cada punto de encendido para poder colocarle los cohetes al Bou.",
+      "TEXT_3": "Los puntos de encendido están en las aceras o zonas peatonales del pueblo.",
+      "TEXT_4": "Aunque en la Cercavila de Foc se enciende en medio de la calle, en el juego no. Siempre en las aceras y zonas peatonales.",
+      "TEXT_5": "Y si eres pequeño, pide a un familiar adulto para que te acompañe.",
+      "TEXT_6": "Si juegas de manera virtual, puedes hacerlo desde casa, no hace falta ir a los puntos de encendido."
+    },
+    "SLIDE_3": {
+      "TITLE_1": "Dificultad",
+      "TEXT_1": "Hay tres niveles de dificultad: Fácil, Medio y Difícil.",
+      "TEXT_2": "En el modo Fácil son combinaciones que se repiten en diferentes encendidas.",
+      "TEXT_3": "Los puntos del Pont de França y la Rambla usan un combinación, Plaça Nova y Plaça Vella también usan la misma combinación y el resto de puntos tienen todos la misma combinación.",
+      "TEXT_4": "En el modo Medio, se usan las mismas combinaciones que en el modo Fácil, pero cada punto puede usar una combinación diferente.",
+      "TEXT_5": "En el modo Difícil, las combinaciones, son totalmente aleatorias."
+    },
+    "SLIDE_4": {
+      "TITLE_1": "¡A jugar!",
+      "TEXT_1": "Primero has de ver las combinaciones de cohetes y recordarlas.",
+      "TEXT_2": "Utiliza los botones de arriba para cambiar entre el morro y la cola.",
+      "TEXT_3": "Y los botones de abajo para moverte por los puntos de encendido.",
+      "TEXT_4": "En el último punto de encendido tendrás el botón para comenzar a jugar.",
+      "TEXT_5": "Si pulsas sobre algún cohete se abrirá una ventana con información."
+    },
+    "SLIDE_5": {
+      "TITLE_1": "Puntos de encendido",
+      "TEXT_1": "Esta es la lista de puntos de encendido.",
+      "TEXT_2": "Cuando acabes de jugar en un punto se activará el siguiente."
+    },
+    "SLIDE_6": {
+      "TITLE_1": "¡A cargar cohetes!",
+      "TEXT_1": "Ha llegado la hora de colocar los cohetes.",
+      "TEXT_2": "Clica sobre la varilla donde quieras cargar y se mostrará una pantalla con todos los tipos de cohetes que puedes escoger.",
+      "TEXT_3": "Si quieres hacer algún cambio, clica sobre el cohete que quieras cambiar y te volverá a salir la pantalla para escoger cohetes.",
+      "TEXT_4": "Cuando creas que ya esta todo bien, pulse el botón '¡Adelante!'."
+    },
+    "SLIDE_7": {
+      "TITLE_1": "Fin de partida",
+      "TEXT_1": "Cuando termines la partida veras un resumen de tus puntuaciones.",
+      "TEXT_2": "Pulsando 'Guardar en la galeria' podrás guardar una captura con las puntuaciones en la galeria del dispositivo"
+    },
+    "SLIDE_8": {
+      "TITLE_1": "¡Adelante!",
+      "TEXT_1": "¡Vamos a cargar cohetes y carretillas!"
+    }
+  }
+}

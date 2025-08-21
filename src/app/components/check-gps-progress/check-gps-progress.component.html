@@ -1,0 +1,4 @@
+<div>
+    <ion-progress-bar [value]="gpsProgress()" color="primary"></ion-progress-bar>
+    <h3 class="ion-text-center">{{ (gpsProgress() ?? 0) * 100 | number:'1.0-0' }}%</h3>    
+</div>

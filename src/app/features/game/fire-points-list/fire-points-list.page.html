@@ -1,0 +1,44 @@
+<ion-content class="ion-padding">
+  <ion-list lines="full">
+    @for(item of gameFirePoints(); track item) {
+    <ion-card
+      class="ion-card-fire-point"
+      [id]="item.code"
+      [ngStyle]="{ 'background-image': 'url(' + item.headerImage + ')' }"
+    >
+      <img [alt]="item.firePointTypeText" [src]="item.headerImage" />
+      <ion-card-header>
+        <ion-card-title>{{ item.translateKey | translate }} </ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        <ion-grid
+          ><ion-row class="ion-align-items-center">
+            <ion-col>
+              <ion-chip [color]="item.firePointTypeColor"
+                >{{ item.firePointTypeText | translate }}</ion-chip
+              >
+            </ion-col>
+            <ion-col class="fire-point-status">
+              @if (item.played) { {{ 'FIRE_POINT_CARD.SCORE' | translate : {
+              score: item.scores?.TOTAL?.score } }} } @else { {{
+              'FIRE_POINT_CARD.PENDING' | translate }} }
+            </ion-col>
+            <ion-col class="fire-point-play">
+              <button
+                class="primary-button little"
+                [class.disabled]="!item.enabled || item.played || checkingFirePoint()"
+                [disabled]="!item.enabled || item.played || checkingFirePoint()"
+                (click)="playPoint(item)"
+              >
+                {{ 'FIRE_POINT_CARD.PLAY' | translate }}
+                <ion-icon name="play-circle-outline"></ion-icon>
+              </button>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-card-content>
+    </ion-card>
+    }
+  </ion-list>
+</ion-content>

@@ -1,0 +1,179 @@
+{
+  "BUTTONS": {
+    "CLOSE": "Tancar",
+    "EXIT": "Sortir",
+    "RETURN_HOME": "Tornar a l'inici",
+    "YES": "Sí",
+    "NO": "No",
+    "START": "Començar",
+    "CANCEL": "Cancel·lar",
+    "ACCEPT": "Acceptar",
+    "NEXT": "Següent",
+    "PREVIOUS": "Anterior"
+  },
+  "TXT": {
+    "NOT_SHOW_AGAIN": "No tornar a mostrar-ho",
+    "CONFIRM_EXIT_GAME": "Vols tancar la aplicació?",
+    "LOADING_IMAGES": "Carregant imatges..."
+  },
+  "FIRE_POINTS": {
+    "HEAD_POINTS": "MORRO I BANYES",
+    "BACK_POINTS": "CUA",
+    "ROQUETES": "Plaça Roquetes",
+    "RASA_SOLA": "Carrer Rasa d'en Solà",
+    "LIRA": "La Lira",
+    "PONT_FRANSA": "Pont de França",
+    "QUATRE_FONTS": "Quatre Fonts",
+    "MURALLA": "Cruïlla Muralla / Carnisseria",
+    "PL_NOVA": "Plaça Nova",
+    "CAFES": "Carrer Cafès",
+    "RAMBLA": "La Rambla",
+    "PL_VELLA": "Plaça Vella"
+  },
+  "HOME": {
+    "PLAY": "Jugar",
+    "INSTRUCTIONS": "Instruccions"
+  },
+  "CONFIGURATION": {
+    "TITLE": "Configuració",
+    "VERSION": "Versió",
+    "LANGUAGE": {
+      "TITLE": "Idioma",
+      "OPTIONS": {
+        "SPANISH": "Castellà",
+        "CATALAN": "Català"
+      },
+      "HELP": "Amb aquesta opció pots canviar la llengua que farás servir a l'aplicació."
+    },
+    "GAME_DIFFICULTY": {
+      "TITLE": "Dificultat del joc",
+      "OPTIONS": {
+        "EASY": "Fàcil",
+        "MEDIUM": "Mitjà",
+        "HARD": "Difícil"
+      },
+      "HELP": "A més dificultat, les combinacions serán mes dificils de recordar."
+    }
+  },
+  "PLAY_GAME_MODAL": {
+    "TITLE": "Com vols jugar?",
+    "VIRTUAL": "Virtual",
+    "REAL": "Real"
+  },
+  "CHECK_INSTRUCTIONS_MODAL": {
+    "MESSAGE": "No has llegit les instruccions del joc.<br>Vols fer-ho ara?"
+  },
+  "FIRE_POINTS_WARNING_MODAL": {
+    "MESSAGE": "<h1><strong><center>ATENCIÓ!</center></strong></h1><p>Recorda que tots el punts que has de cercar per carregar el Bou són a les voreres o a zones peatonals.</p><p>Encara que a la Cercavila de Foc s'encen al mig del carrer,<br><strong>NO ET PARIS MAI AL MIG DEL CARRER A JUGAR!</strong></p><p>Fes-ho a les voreres o zones peatonals.</p>"
+  },
+  "EXIT_GAME_MODAL": {
+    "TITLE": "Vols sortir de joc (es pedrà tot el progres i punts aconseguits a la partida)?"
+  },
+  "FIRE_POINT_CARD": {
+    "PENDING": "Pendent",
+    "SCORE": "{{ score }} punts",
+    "PLAY": "Jugar",
+    "NORMAL": "Normal",
+    "SPECIAL": "Especial"
+  },
+  "GAME": {
+    "CHECKING_GPS_INFO": "Comprovant coordenades del punt d'encesa",
+    "NOT_IN_FIRE_POINT": "No estas prou a prop del punt d'encesa.<br><br>No podem carregar.",
+    "NOT_NEAR_FIRE_POINT": "Encara no estas prou a prop del punt d'encesa.<br><br>No podem carregar.<br><br>Estas a {{ value }} metres.",
+    "ERROR_GET_FIRE_POINT": "No s'ha pogut saber on estas, torna a provar-ho",
+    "ERROR_GPS_PERMISSION": "El joc necessita del permís d'ubicació exacta. S'obrirà la configuració de la aplicació per a que puguis configurar-ho.",
+    "CHECK_POINTS_BUTTON": "Endavant!",
+    "FIREWORK_WANT_USE": "Quin cohet vols fer servir?",
+    "YOUR_SCORE": "Has aconseguit\n{{ score }} punts",
+    "SUMMARY": {
+      "FIRE_POINT": "Punt d'encesa",
+      "SCORE": "Puntuació",
+      "SCORE_RESULT": "Has aconseguit {{ score }} punts",
+      "SAVE_SCORES": "Dessar a la galería",
+      "MUST_ENABLE_GALLERY_PERMISSION": "Has d'habil·litar els permisos d'emmagatzematge als ajustaments del teu dispositiu",
+      "ERROR_SAVING_IMAGE": "S'ha produit un error en intentar desar la imatge",
+      "ERROR_GET_ALBUM": "No s'ha pogut crear ni trobar l'àlbum per desar la imatge",
+      "ERROR_GET_IMAGE": "No s'ha pogut generar la imatge",
+      "SCORES_IMAGE_SAVED": "La imatge s'ha dessat a la galería!"
+    }
+  },
+  "FIREWORKS": {
+    "CARRETILLA": {
+      "NAME": "Carretilla",
+      "DESCRIPTION": "Es una carretilla normal, com les que fan servir els diables"
+    },
+    "SORTIDOR": {
+      "NAME": "Sortidor",
+      "DESCRIPTION": "Sortidor de color blanc que dura uns 20 segons"
+    },
+    "RONCADOR": {
+      "NAME": "Roncador",
+      "DESCRIPTION": "Sortidor que va xiulant mentre esta encesa"
+    },
+    "SUPER_CARRETILLA": {
+      "NAME": "Super carretilla",
+      "DESCRIPTION": "Es com una carretilla, pero dura més estona encesa"
+    },
+    "CRACKER": {
+      "NAME": "Cracker",
+      "DESCRIPTION": "Sortidor que va fent xispes mentre esta ences"
+    },
+    "VOLCANET": {
+      "NAME": "Volcà",
+      "DESCRIPTION": "Sortidor que acaba llençant boles de colors cap amunt"
+    }
+  },
+  "INSTRUCTIONS": {
+    "SLIDE_1": {
+      "TITLE_1": "Hola!",
+      "TEXT_1": "Benvingut al joc de carregar cohets i carretilles.",
+      "TEXT_2": "En aquest joc hauràs de carregar els cohets al Bou per cada encesa de la Cercavila de Foc."
+    },
+    "SLIDE_2": {
+      "TITLE_1": "Virtual o Real",
+      "TEXT_1": "Hi ha dues maneres de jugar, de forma virtual i de forma real.",
+      "TEXT_2": "Si vols jugar de manera real hauràs d'anar a cada punt d'encesa per poder colocar-hi els coets al Bou.",
+      "TEXT_3": "Els punts d'encesa són a les voreres o zones peatonals del poble.",
+      "TEXT_4": "Encara que a la Cercavila de Foc s'encengui al mig del carrer, al joc no. Sempre a les voreres i zones peatonals.",
+      "TEXT_5": "I si ets petit, demana a un familiar adult per que t'acompanyi.",
+      "TEXT_6": "Si jugues de manera virtual, pots fer-ho desde casa, no cal anar als punts d'encesa."
+    },
+    "SLIDE_3": {
+      "TITLE_1": "Dificultat",
+      "TEXT_1": "Hi ha tres nivells de dificultat: Fàcil, Mitjà i Difícil.",
+      "TEXT_2": "Al mode fàcil son combinacions que es repeteixen en diferents enceses.",
+      "TEXT_3": "Els punts del Pont de França i la Rambla fan servir una combinació, Plaça Nova i Plaça Vella també fan servir la mateixa combinació i la resta de punts tenen tots la mateixa combinació.",
+      "TEXT_4": "Al mode Mitjà, es fan servir les mateixes combinacions que al mode Fàcil, pero cada punt pot fer servir una combinació diferent.",
+      "TEXT_5": "Al mode Difícil, les combinacions, son totalment aleatòries."
+    },
+    "SLIDE_4": {
+      "TITLE_1": "A jugar!",
+      "TEXT_1": "Primer has de veure les combinacions de cohets i recordar-les.",
+      "TEXT_2": "Fes servir el botons de dalt per canviar entre el morro i la cua.",
+      "TEXT_3": "I els botons d'abaix per moure't pels punts d'encesa.",
+      "TEXT_4": "Al darrer punt d'encesa tindrás el botó per començar a jugar.",
+      "TEXT_5": "Si prems a sobre d'algun cohet s'obrià una finestra amb informació."
+    },
+    "SLIDE_5": {
+      "TITLE_1": "Punts d'encesa",
+      "TEXT_1": "Aquesta es la llista de punts d'encesa.",
+      "TEXT_2": "Quan acabis de jugar a un punt s'activarà el següent."
+    },
+    "SLIDE_6": {
+      "TITLE_1": "A carregar cohets!",
+      "TEXT_1": "Ha arribat l'hora de col·locar els cohets.",
+      "TEXT_2": "Clica sobre la varilla on vulguis carregar i es mostrarà una pantalla amb tots els tipus de cohets que pots escollir.",
+      "TEXT_3": "Si vols fer algun canvi, clica sobre el cohet que vulguis canviar i et tornarà a sortir la pantalla per escollir cohets.",
+      "TEXT_4": "Quan creguis que ja esta tot bé, prem el botó 'Endavant!'."
+    },
+    "SLIDE_7": {
+      "TITLE_1": "Fi del joc",
+      "TEXT_1": "Quan acabis el joc veuràs un resum de les teves puntuacions.",
+      "TEXT_2": "Prement 'Dessar a la galería' podràs dessar una captura amb les puntuacions a la galería del dispoitiu"
+    },
+    "SLIDE_8": {
+      "TITLE_1": "Som-hi!",
+      "TEXT_1": "Anem a carregar cohets i carretilles!"
+    }
+  }
+}

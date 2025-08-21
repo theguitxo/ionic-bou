@@ -1,0 +1,60 @@
+.main-container {
+  padding: 0 1rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  & img {
+    width: 75%;
+  }
+}
+
+.score-container {
+  padding: .75rem .25rem .25rem .25rem;
+  text-align: center;
+  border: solid 2px gold;
+  border-radius: 1rem;
+  background-color: goldenrod;
+  width: 90%;
+  color: black;
+  font-family: luckiestguy;
+}
+
+.table-container {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  font-family: luckiestguy;
+
+  tr:first-child {
+    border-bottom: solid 1px #fff;
+  }
+
+  th {
+    padding: 0.5rem 0.25rem;
+  }
+
+  td {
+    padding: 0.25rem;
+  }
+
+  .first-line {
+    padding-top: 1rem;
+  }
+
+  .score-value {
+    text-align: right;
+  }
+}
+
+.buttons-wrapper {
+  margin-top: 1rem;
+}

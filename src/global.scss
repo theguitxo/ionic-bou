@@ -20,10 +20,10 @@
 
 /* Optional CSS utils that can be commented out */
 @import "@ionic/angular/css/padding.css";
-@import "@ionic/angular/css/float-elements.css";
+// @import "@ionic/angular/css/float-elements.css";
 @import "@ionic/angular/css/text-alignment.css";
-@import "@ionic/angular/css/text-transformation.css";
-@import "@ionic/angular/css/flex-utils.css";
+// @import "@ionic/angular/css/text-transformation.css";
+// @import "@ionic/angular/css/flex-utils.css";
 
 /**
  * Ionic Dark Mode
@@ -34,4 +34,232 @@
 
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
-@import '@ionic/angular/css/palettes/dark.system.css';
+// @import "@ionic/angular/css/palettes/dark.system.css";
+
+@font-face {
+  font-family: "luckiestguy";
+  src:
+    url("/assets/fonts/LuckiestGuy-Regular.eot") format("embedded-opentype"),
+    url("/assets/fonts/LuckiestGuy-Regular.woff") format("woff"),
+    url("/assets/fonts/LuckiestGuy-Regular.woff2") format("woff2"),
+    url("/assets/fonts/LuckiestGuy-Regular.ttf") format("truetype");
+}
+
+:root {
+  --ion-background-color: #74071a;
+  --ion-text-color: #ffffff;
+  --ion-color-primary: #ffffff;
+  --ion-color-primary-rgb: 255, 255, 255;
+  --ion-color-primary-contrast: #000000;
+  --ion-color-primary-contrast-rgb: 0, 0, 0;
+  --ion-color-secundary: #197407;
+
+  --tetradic-primary-color: #74071a;
+
+  --tetradic-secondary-color: #197407;
+  --tetradic-secondary-dark-color: #0f4504;
+  --tetradic-secondary-light-color: #75ab6a;
+
+  --tetradic-tertiary-color: #072d74;
+
+  --tetradic-fourth-color: #743407;
+  --tetradic-fourth-light-color: #ab856a;
+  --tetradic-fourth-dark-color: #451f04;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-text-size-adjust: 100% !important;
+  -moz-text-size-adjust: 100% !important;
+  text-size-adjust: 100% !important;
+}
+
+/* *************** */
+/*   SWIPER SLIDE  */
+/* *************** */
+
+swiper-container {
+  --swiper-pagination-bullet-inactive-color: var(
+    --ion-text-color-step-800,
+    #cccccc
+  );
+  --swiper-pagination-color: var(--ion-color-primary, #0054e9);
+  --swiper-pagination-progressbar-bg-color: rgba(
+    var(--ion-text-color-rgb, 0, 0, 0),
+    0.25
+  );
+  --swiper-scrollbar-bg-color: rgba(var(--ion-text-color-rgb, 0, 0, 0), 0.1);
+  --swiper-scrollbar-drag-bg-color: rgba(
+    var(--ion-text-color-rgb, 0, 0, 0),
+    0.5
+  );
+
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  display: flex;
+  position: relative;
+
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 95%;
+
+  box-sizing: border-box;
+
+  &.h-full {
+    height: 100%;
+  }
+}
+
+swiper-slide img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+/* ******************** */
+/*   IONIC COMPONENTS   */
+/* ******************** */
+
+ion-modal.app-modal {
+  --width: fit-content;
+  --min-width: 250px;
+  --height: fit-content;
+  --border-radius: 6px;
+  --box-shadow: 0 28px 48px rgba(0, 0, 0, 0.4);
+}
+
+ion-card {
+  --background: var(--tetradic-fourth-light-color);
+
+  & ion-card-title {
+    --color: var(--tetradic-fourth-dark-color);
+  }
+}
+
+ion-item {
+  --background: var(--tetradic-fourth-light-color);
+  --color: var(--tetradic-fourth-dark-color);
+}
+
+ion-radio {
+  --color: var(--tetradic-fourth-dark-color);
+  --color-checked: var(--tetradic-fourth-dark-color);
+}
+
+ion-button {
+  --background: #e70e34;
+  --color: #000;
+}
+
+ion-toggle {
+  --track-background-checked: var(--ion-color-secundary);
+}
+
+/* ********************* */
+/*   GLOBAL COMPONENTS   */
+/* ********************* */
+
+.app-modal-content {
+  padding: 1rem;
+  max-width: 90vw;
+  background-color: var(--tetradic-fourth-color);
+
+  border-top: solid 0.25rem var(--tetradic-fourth-light-color);
+  border-left: solid 0.25rem var(--tetradic-fourth-light-color);
+  border-bottom: solid 0.25rem var(--tetradic-fourth-dark-color);
+  border-right: solid 0.25rem var(--tetradic-fourth-dark-color);
+
+  border-radius: 0.25rem;
+
+  & h3 {
+    &.centered {
+      text-align: center;
+    }
+
+    &.justified {
+      text-align: justify;
+    }
+  }
+}
+
+.buttons-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.25rem;
+
+  & div {
+    flex: 1 1 auto;
+  }
+
+  &.alignRight {
+    justify-content: flex-end;
+  }
+}
+
+.primary-button {
+  background-color: var(--tetradic-secondary-color);
+  color: #fff;
+  padding: 0.75rem 1.25rem 0.35rem 1.25rem;
+  font-family: luckiestguy;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+
+  border-radius: 0.5rem;
+
+  border-bottom: solid 0.25rem var(--tetradic-secondary-dark-color);
+  border-right: solid 0.25rem var(--tetradic-secondary-dark-color);
+  border-top: solid 0.25rem var(--tetradic-secondary-light-color);
+  border-left: solid 0.25rem var(--tetradic-secondary-light-color);
+
+  &.full {
+    width: 100%;
+  }
+
+  &.little {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    font-size: 1rem;
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+  }
+
+  &.disabled {
+    filter: grayscale(1);
+  }
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  &.playing {
+    padding: 0.5rem;
+    width: 100%;
+  }
+}
+
+.mt-2 {
+  margin-top: 2rem !important;
+}
+
+swiper-container {
+  --swiper-pagination-color: var(--tetradic-fourth-light-color);
+  --swiper-pagination-bullet-inactive-color: var(--tetradic-fourth-dark-color);
+  --swiper-pagination-bullet-inactive-opacity: 1;
+  --swiper-pagination-bullet-width: 1rem;
+  --swiper-pagination-bullet-height: 1rem;
+}

@@ -1,0 +1,23 @@
+<div class="main-container mt-2" [ngStyle]="style()">
+  <div class="score-text">
+    {{
+      "GAME.YOUR_SCORE"
+        | translate : { score: currentPoint()?.scores?.TOTAL?.score }
+    }}
+  </div>
+  <div class="video-container">
+    <video
+      #video
+      autoplay
+      [volume]="1"
+      [src]="videoUrl()"
+      poster="assets/video/fire_points/poster.png"
+      (ended)="videoEnded()"
+    ></video>
+  </div>
+  <div class="button-wrapper">
+    <button class="primary-button full" (click)="endVideo()">
+      {{ "BUTTONS.ACCEPT" | translate }}
+    </button>
+  </div>
+</div>

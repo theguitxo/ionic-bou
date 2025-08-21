@@ -1,0 +1,47 @@
+<ion-content [fullscreen]="true" class="ion-padding">
+  <video
+    autoplay
+    loop
+    [volume]="0"
+    src="assets/video/home.mp4"
+    poster="assets/video/home.jpg"
+  ></video>
+  <div class="video_mask"></div>
+
+  <div class="main-container">
+    <div class="settings-container">
+      <ion-button fill="clear" size="large" (click)="navigateConfiguration()">
+        <ion-icon slot="icon-only" name="settings-outline"></ion-icon>
+      </ion-button>
+    </div>
+    <div class="logo-container">
+      <div class="logo-box">
+        <div class="logo-bou">
+          <img src="/assets/img/logo_bou.svg" />
+        </div>
+        <div class="logo-home">
+          <app-logo-home></app-logo-home>
+        </div>
+      </div>
+    </div>
+    <div class="buttons-wrapper">
+      <div>
+        <button class="primary-button full" (click)="checkInstructionsValues()">
+          {{ 'HOME.PLAY' | translate }}
+        </button>
+      </div>
+    </div>
+    <div class="buttons-wrapper">
+      <div>
+        <button class="primary-button full" (click)="navigateInstructions()">
+          {{ 'HOME.INSTRUCTIONS' | translate }}
+        </button>
+      </div>
+      <div>
+        <button class="primary-button full" (click)="openExitGameConfirmModal()">
+          {{ 'BUTTONS.EXIT' | translate }}
+        </button>
+      </div>
+    </div>
+  </div>
+</ion-content>

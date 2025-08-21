@@ -1,0 +1,41 @@
+.ion-card-fire-point {
+  border: solid 2px var(--tetradic-fourth-dark-color);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: screen;
+
+  & ion-card-header,
+  & ion-card-content {
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+
+  & ion-card-title {
+    font-weight: bold;
+  }
+}
+
+img {
+  border-bottom: solid 2px var(--tetradic-fourth-dark-color);
+}
+
+ion-chip {
+  background: rgba(255, 255, 255, 0.75);
+  font-weight: bold;
+}
+
+.fire-point-status {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.fire-point-play {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  & ion-icon {
+    padding-bottom: 0.25rem;
+  }
+}

@@ -1,0 +1,15 @@
+<ion-content>
+  <ion-router-outlet id="game-content"></ion-router-outlet
+></ion-content>
+<ion-footer class="ion-no-border ion-padding">
+  @if (showExitButton()) {
+  <button
+    class="primary-button full"
+    [class.disabled]="checkingFirePoint()"
+    (click)="checkExitGameModal()"
+    [disabled]="checkingFirePoint()"
+  >
+    {{ 'BUTTONS.EXIT' | translate }}
+  </button>
+  }
+</ion-footer>

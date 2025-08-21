@@ -1,3 +1,17 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+
+  @if(isLoading()) {
+    <div class="main-container">
+        <div class="logo-bou">
+          <img src="/assets/img/logo_bou_blanco.svg" />
+        </div>      
+        <h3>{{ 'TXT.LOADING_IMAGES' | translate }}</h3>
+        <ion-progress-bar [value]="loadProgress()" color="primary"></ion-progress-bar>
+        <h3>{{ loadProgress() * 100 | number:'1.0-0' }}%</h3>
+    </div>
+  }
+
+  @if(!isLoading()) {
+    <ion-router-outlet id="main-content"></ion-router-outlet>
+  }
 </ion-app>

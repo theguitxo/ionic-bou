@@ -1,0 +1,63 @@
+@if(firePoint()) {
+<div class="main-container playing">
+  <div class="title-container">
+    <ion-avatar slot="start">
+      <img [src]="firePoint()?.avatarImage" />
+    </ion-avatar>
+    <h2>{{ firePoint()?.translateKey | translate }}</h2>
+  </div>
+  <div class="fire-points-buttons">
+    <button
+      class="primary-button full"
+      [class.disabled]="showHeadValue()"
+      [disabled]="showHeadValue()"
+      (click)="showHead()"
+    >
+      {{ 'FIRE_POINTS.HEAD_POINTS' | translate }}
+    </button>
+    <button
+      class="primary-button full"
+      [class.disabled]="showBackValue()"
+      [disabled]="showBackValue()"
+      (click)="showBack()"
+    >
+      {{ 'FIRE_POINTS.BACK_POINTS' | translate }}
+    </button>
+  </div>
+  @if (showHeadValue()) {
+  <div
+    class="fire-points-item"
+    slot="content"
+    [style.backgroundImage]="'url(' + firePoint()?.backgroundImage + ')'"
+  >
+    <app-head-fire-points
+      [points]="firePoint()?.playFireworksPoints"
+      [mode]="'PLAY'"
+      (showFirework)="showFireWork($event)"
+    />
+  </div>
+  } @if (showBackValue()) {
+  <div
+    class="fire-points-item"
+    slot="content"
+    [style.backgroundImage]="'url(' + firePoint()?.backgroundImage + ')'"
+  >
+    <app-back-fire-points
+      [points]="firePoint()?.playFireworksPoints"
+      [mode]="'PLAY'"
+      (showFirework)="showFireWork($event)"
+    />
+  </div>
+  }
+  <div class="fire-points-go-button">
+    <button
+      class="primary-button full"
+      [class.disabled]="disableCheckPoints()"
+      (click)="acceptFirePoint()"
+      [disabled]="disableCheckPoints()"
+    >
+      {{ 'GAME.CHECK_POINTS_BUTTON' | translate }}
+    </button>
+  </div>
+</div>
+}

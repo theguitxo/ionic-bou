@@ -1,0 +1,47 @@
+<ion-content [fullscreen]="true" class="ion-padding">
+  <swiper-container
+    #instructionsSwiper
+    [pagination]="{clickable: true}"
+    [loop]="false"
+  >
+    @for (slideInfo of slidesInfo(); track slideInfo) {
+    <swiper-slide>
+      <div class="instructions-page">
+        @for (object of slideInfo.objects; track object; let isLast = $last) {
+        @switch (object.type) { @case('title') {
+        <div class="slide-item" [ngClass]="{'with-margin': !isLast}">
+          <h1>{{ object.value }}</h1>
+        </div>
+        } @case ('text') {
+        <div class="slide-item text" [ngClass]="{'with-margin': !isLast}">
+          {{ object.value }}
+        </div>
+        } @case ('html') {
+        <div
+          class="slide-item text"
+          [innerHTML]="object.value"
+          [ngClass]="{'with-margin': !isLast}"
+        ></div>
+        } @case ('image') {
+        <div
+          class="slide-item image"
+          [ngClass]="{
+          'image-start': object.imageAlignement === 'start',
+          'image-center': object.imageAlignement === 'center',
+          'image-end': object.imageAlignement === 'end',
+          'with-margin': !isLast
+        }"
+        >
+          <img [src]="object.value" />
+        </div>
+        } } }
+      </div>
+    </swiper-slide>
+    }
+  </swiper-container>
+</ion-content>
+<ion-footer class="ion-no-border ion-padding">
+  <button class="primary-button full" (click)="goHome()">
+    {{ 'BUTTONS.EXIT' | translate }}
+  </button>
+</ion-footer>

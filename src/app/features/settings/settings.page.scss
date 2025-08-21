@@ -1,0 +1,33 @@
+.settings-card-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.help-settings-modal {
+  padding: 1rem;
+}
+
+.help-settings-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+ion-modal#help-settings-modal {
+  --width: 90vw;
+  --height: fit-content;
+  --border-radius: 6px;
+  --box-shadow: 0 28px 48px rgba(0, 0, 0, 0.4);
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+
+  .version {
+    align-self: end;
+    font-size: .75rem;
+  }
+}

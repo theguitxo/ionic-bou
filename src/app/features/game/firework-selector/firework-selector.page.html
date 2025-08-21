@@ -1,0 +1,23 @@
+<div class="main-container playing mt-2">
+  @if(firePoint !== undefined) {
+  <div class="firework-position">
+    <img [src]="fireworkPosition().get(firePoint)" />
+  </div>
+  }
+  <div class="firework-question">
+    {{ 'GAME.FIREWORK_WANT_USE' | translate }}
+  </div>
+  <div class="firework-types">
+    @for(button of selectFireworkButtons(); track button) {
+    <div class="firework-item" (click)="selectFirework(button.type)">
+      <img class="firework-icon" [src]="button.img" />
+      <div class="firework-label">{{ button.label| translate }}</div>
+    </div>
+    }
+  </div>
+  <div class="firework-cancel">
+    <button class="primary-button full" (click)="returnGameFirePoint()">
+      {{ 'BUTTONS.CANCEL' | translate }}
+    </button>
+  </div>
+</div>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="53.019798mm"
+   height="46.796951mm"
+   viewBox="0 0 53.019798 46.796951"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(-110.33657,-128.2653)">
+    <g
+       id="roncador_morro_2"
+       transform="rotate(45.759447,-40.076624,166.24531)"
+       style="display:inline">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="M 71.430379,6.1246478 C 71.967572,2.3203984 72.069687,-1.483851 74.6528,-5.2881004"
+         id="path198" />
+      <rect
+         style="fill:#ffa348;stroke:#c64600;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect199"
+         width="9.1301994"
+         height="34.506779"
+         x="66.73101"
+         y="4.028028" />
+      <path
+         id="path199"
+         style="fill:#ff7800;stroke:#c64600;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 66.743714,38.251166 h 9.045816 v 19.095633 l -3.019846,5.37129 -3.206543,0.06714 -2.819427,-5.438432 z" />
+      <rect
+         style="fill:#ffd42a;stroke:#aa8800;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect200"
+         width="11.479882"
+         height="17.387657"
+         x="65.656868"
+         y="30.210215" />
+      <rect
+         style="fill:#ffd42a;fill-opacity:1;stroke:#aa8800;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect201"
+         width="5.56148"
+         height="9.6914377"
+         x="60.046829"
+         y="36.881092" />
+      <rect
+         style="fill:#d4aa00;fill-opacity:1;stroke:none;stroke-width:1.38201;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect202"
+         width="1.4911869"
+         height="9.2848482"
+         x="63.808067"
+         y="36.912422"
+         transform="matrix(0.99999562,0.00295961,0.00296476,0.99999561,0,0)" />
+      <rect
+         style="fill:#d4aa00;fill-opacity:1;stroke:none;stroke-width:0.412723;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect203"
+         width="1.7155701"
+         height="16.984383"
+         x="65.98793"
+         y="30.633137"
+         transform="matrix(0.99999384,-0.00350958,-0.00350238,0.99999387,0,0)" />
+    </g>
+  </g>
+</svg>

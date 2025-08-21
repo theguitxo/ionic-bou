@@ -1,0 +1,14 @@
+<div class="app-modal-content">
+  <div class="fire-work-info">
+    <h3>{{ name() | translate }}</h3>
+    <img [src]="fireworksImages().get(firework)" />
+    <div>
+      {{ description() | translate }}
+    </div>
+  </div>
+  <div class="buttons-wrapper ion-padding-top">
+    <button class="primary-button full" (click)="closeModal()">
+      {{ "BUTTONS.CLOSE" | translate }}
+    </button>
+  </div>
+</div>

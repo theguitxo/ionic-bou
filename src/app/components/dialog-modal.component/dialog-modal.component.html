@@ -1,0 +1,42 @@
+<div class="app-modal-content">
+  <h3 [class.justified]="contentJustified" [class.centered]="!contentJustified">
+    <span [innerHTML]="sanitizedContent"></span>
+  </h3>
+  <div
+    class="buttons-wrapper ion-padding-top"
+    [class.alignRight]="!showSecondButton && !firstButtonFull"
+  >
+    @if (showFirstButton) {
+      <button
+        class="primary-button"
+        [class.full]="firstButtonFull"
+        (click)="handleClickFirstButton()"
+      >
+        {{ labelFirstButton | translate }}
+      </button>
+    }
+    @if (showSecondButton) {
+      <button
+        class="primary-button"
+        [class.full]="secondButtonFull"
+        (click)="handleClickSecondButton()"
+      >
+        {{ labelSecondButton | translate }}
+      </button>
+    }
+  </div>
+  @if (component) {
+    <div class="ion-padding-top">
+      <ng-container *ngComponentOutlet="component"></ng-container>
+    </div>
+  }
+  @if (showToggle()) {
+    <div class="ion-padding-top">
+      <ion-toggle
+        [labelPlacement]="'end'"
+        (ionChange)="toggleValueChanges($event)"
+        >{{ confirmToggleStr | translate }}</ion-toggle
+      >
+    </div>
+  }
+</div>

@@ -1,0 +1,60 @@
+.main-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  row-gap: 1rem;
+  width: 100%;
+}
+
+.settings-container {
+  display: flex;
+  justify-content: flex-end;
+
+  & ion-button {
+    --background: transparent;
+  }
+}
+
+.logo-container {
+  display: block;
+
+  & .logo-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+
+  & .logo-bou {
+    width: 50%;
+  }
+
+  & .logo-home {
+    flex: 1 1 auto;
+    display: block;
+    padding: 0 1rem;
+  }
+}
+
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.video_mask {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -50;
+  background-color: var(--ion-background-color);
+  opacity: 0.35;
+}

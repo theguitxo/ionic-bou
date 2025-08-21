@@ -1,0 +1,33 @@
+<div class="main-container mt-2">
+  <div class="image-container">
+    <img src="assets/img/summary.svg">
+  </div>
+  <div class="score-container">
+    {{ 'GAME.SUMMARY.SCORE_RESULT' | translate: { score: totalScore() } }}
+  </div>
+  <div class="table-container">
+    <table>
+      <tr>
+        <th>{{ 'GAME.SUMMARY.FIRE_POINT' | translate }}</th>
+        <th>{{ 'GAME.SUMMARY.SCORE' | translate }}</th>
+      </tr>
+      @for (item of summaryScores(); track item; let isFirst = $first){
+      <tr>
+        <td [ngClass]="{ 'first-line': isFirst }">
+          {{ item.firePointTranslateKey | translate }}
+        </td>
+        <td class="score-value" [ngClass]="{ 'first-line': isFirst }">
+          {{ item.score }}
+        </td>
+      </tr>
+      }
+    </table>
+  </div>
+  @if (showCaptureButton()) {
+  <div class="buttons-wrapper">
+    <button class="primary-button full" (click)="saveScores()">
+      {{ 'GAME.SUMMARY.SAVE_SCORES' | translate }}
+    </button>
+  </div>
+  }
+</div>

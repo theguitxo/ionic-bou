@@ -1,0 +1,256 @@
+[
+  {
+    "objects": [
+      {
+        "type": "title",
+        "translationKey": "INSTRUCTIONS.SLIDE_1.TITLE_1"
+      },
+      {
+        "type": "text",
+        "translationKey": "INSTRUCTIONS.SLIDE_1.TEXT_1"
+      },
+      {
+        "type": "text",
+        "translationKey": "INSTRUCTIONS.SLIDE_1.TEXT_2"
+      },
+      {
+        "type": "image",
+        "url": "assets/img/instructions/slide_1_image_1.svg"
+      }
+    ]
+  },
+  {
+    "objects": [
+      {
+        "type": "title",
+        "translationKey": "INSTRUCTIONS.SLIDE_2.TITLE_1"
+      },
+      {
+        "type": "text",
+        "translationKey": "INSTRUCTIONS.SLIDE_2.TEXT_1"
+      },
+      {
+        "type": "text",
+        "translationKey": "INSTRUCTIONS.SLIDE_2.TEXT_2"
+      },
+      {
+        "type": "text",
+        "translationKey": "INSTRUCTIONS.SLIDE_2.TEXT_3"
+      },
+      {
+        "type": "text",
+        "translationKey": "INSTRUCTIONS.SLIDE_2.TEXT_4"
+      },
+      {
+        "type": "text",
+        "translationKey": "INSTRUCTIONS.SLIDE_2.TEXT_5"
+      },
+      {
+        "type": "text",
+        "translationKey": "INSTRUCTIONS.SLIDE_2.TEXT_6"
+      },
+      {
+        "type": "image",
+        "url": "assets/img/instructions/slide_2_image_1.svg"
+      }
+    ]
+  },
+  {
+    "objects": [
+      {
+        "type": "title",
+        "translationKey": "INSTRUCTIONS.SLIDE_3.TITLE_1"
+      },
+      {
+        "type": "text",
+        "translationKey": "INSTRUCTIONS.SLIDE_3.TEXT_1"
+      },
+      {
+        "type": "text",
+        "translationKey": "INSTRUCTIONS.SLIDE_3.TEXT_2"
+      },
+      {
+        "type": "text",
+        "translationKey": "INSTRUCTIONS.SLIDE_3.TEXT_3"
+      },
+      {
+        "type": "text",
+        "translationKey": "INSTRUCTIONS.SLIDE_3.TEXT_4"
+      },
+      {
+        "type": "text",
+        "translationKey": "INSTRUCTIONS.SLIDE_3.TEXT_5"
+      },
+      {
+        "type": "image",
+        "url": "assets/img/instructions/slide_3_image_1.svg"
+      }
+    ]
+  },
+  {
+    "objects": [
+      {
+        "type": "title",
+        "translationKey": "INSTRUCTIONS.SLIDE_4.TITLE_1"
+      },
+      {
+        "type": "text",
+        "translationKey": "INSTRUCTIONS.SLIDE_4.TEXT_1"
+      },
+      {
+        "type": "image",
+        "url": "assets/img/instructions/slide_4_image_1.svg"
+      },
+      {
+        "type": "text",
+        "translationKey": "INSTRUCTIONS.SLIDE_4.TEXT_2"
+      },
+      {
+        "type": "image",
+        "urlES": "assets/img/instructions/slide_4_image_2_es.png",
+        "urlCA": "assets/img/instructions/slide_4_image_2_ca.png",
+        "imageWithLang": true
+      },
+      {
+        "type": "image",
+        "urlES": "assets/img/instructions/slide_4_image_3_es.png",
+        "urlCA": "assets/img/instructions/slide_4_image_3_ca.png",
+        "imageWithLang": true
+      },
+      {
+        "type": "text",
+        "translationKey": "INSTRUCTIONS.SLIDE_4.TEXT_3"
+      },
+      {
+        "type": "image",
+        "urlES": "assets/img/instructions/slide_4_image_4_es.png",
+        "urlCA": "assets/img/instructions/slide_4_image_4_ca.png",
+        "imageWithLang": true
+      },
+      {
+        "type": "image",
+        "urlES": "assets/img/instructions/slide_4_image_5_es.png",
+        "urlCA": "assets/img/instructions/slide_4_image_5_ca.png",
+        "imageWithLang": true
+      },
+      {
+        "type": "text",
+        "translationKey": "INSTRUCTIONS.SLIDE_4.TEXT_4"
+      },
+      {
+        "type": "image",
+        "urlES": "assets/img/instructions/slide_4_image_6_es.png",
+        "urlCA": "assets/img/instructions/slide_4_image_6_ca.png",
+        "imageWithLang": true
+      },
+      {
+        "type": "text",
+        "translationKey": "INSTRUCTIONS.SLIDE_4.TEXT_5"
+      },
+      {
+        "type": "image",
+        "urlES": "assets/img/instructions/slide_4_image_7_es.png",
+        "urlCA": "assets/img/instructions/slide_4_image_7_ca.png",
+        "imageWithLang": true
+      }
+    ]
+  },
+  {
+    "objects": [
+      {
+        "type": "title",
+        "translationKey": "INSTRUCTIONS.SLIDE_5.TITLE_1"
+      },
+      {
+        "type": "text",
+        "translationKey": "INSTRUCTIONS.SLIDE_5.TEXT_1"
+      },
+      {
+        "type": "image",
+        "urlES": "assets/img/instructions/slide_5_image_1_es.png",
+        "urlCA": "assets/img/instructions/slide_5_image_1_ca.png",
+        "imageWithLang": true
+      },
+      {
+        "type": "text",
+        "translationKey": "INSTRUCTIONS.SLIDE_5.TEXT_2"
+      }
+    ]
+  },
+  {
+    "objects": [
+      {
+        "type": "title",
+        "translationKey": "INSTRUCTIONS.SLIDE_6.TITLE_1"
+      },
+      {
+        "type": "text",
+        "translationKey": "INSTRUCTIONS.SLIDE_6.TEXT_1"
+      },
+      {
+        "type": "text",
+        "translationKey": "INSTRUCTIONS.SLIDE_6.TEXT_2"
+      },
+      {
+        "type": "image",
+        "urlES": "assets/img/instructions/slide_6_image_2_es.png",
+        "urlCA": "assets/img/instructions/slide_6_image_2_ca.png",
+        "imageWithLang": true
+      },
+      {
+        "type": "text",
+        "translationKey": "INSTRUCTIONS.SLIDE_6.TEXT_3"
+      },
+      {
+        "type": "text",
+        "translationKey": "INSTRUCTIONS.SLIDE_6.TEXT_4"
+      },
+      {
+        "type": "image",
+        "urlES": "assets/img/instructions/slide_6_image_3_es.png",
+        "urlCA": "assets/img/instructions/slide_6_image_3_ca.png",
+        "imageWithLang": true
+      },
+      {
+        "type": "image",
+        "url": "assets/img/instructions/slide_6_image_1.svg"
+      }
+    ]
+  },
+  {
+    "objects": [
+      {
+        "type": "title",
+        "translationKey": "INSTRUCTIONS.SLIDE_7.TITLE_1"
+      },
+      {
+        "type": "text",
+        "translationKey": "INSTRUCTIONS.SLIDE_7.TEXT_1"
+      },
+      {
+        "type": "text",
+        "translationKey": "INSTRUCTIONS.SLIDE_7.TEXT_2"
+      },
+      {
+        "type": "image",
+        "url": "assets/img/instructions/slide_7_image_1.svg"
+      }
+    ]
+  },
+  {
+    "objects": [
+      {
+        "type": "title",
+        "translationKey": "INSTRUCTIONS.SLIDE_8.TITLE_1"
+      },
+      {
+        "type": "text",
+        "translationKey": "INSTRUCTIONS.SLIDE_8.TEXT_1"
+      },
+      {
+        "type": "image",
+        "url": "assets/img/instructions/slide_8_image_1.svg"
+      }
+    ]
+  }
+]

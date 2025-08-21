@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="41.751003mm"
+   height="37.006275mm"
+   viewBox="0 0 41.751003 37.006275"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(-95.853908,-124.63586)">
+    <g
+       id="volcanet_morro_2"
+       transform="rotate(45,-41.412174,140.84145)"
+       style="display:inline">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#008033;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 72.773058,7.8546565 C 72.890346,6.3779741 72.591631,6.0377873 73.71293,3.2224232"
+         id="path224" />
+      <rect
+         style="fill:#666666;fill-opacity:1;stroke:#333333;stroke-width:0.358405;stroke-linecap:round;stroke-linejoin:round"
+         id="rect224"
+         width="14.282828"
+         height="31.182425"
+         x="65.678757"
+         y="17.448446" />
+      <rect
+         style="fill:#666666;fill-opacity:1;stroke:#333333;stroke-width:0.401076;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect225"
+         width="5.3983145"
+         height="10.489554"
+         x="70.12101"
+         y="6.9384913" />
+      <rect
+         style="fill:#666666;stroke:#333333;stroke-width:0.400808;stroke-linecap:round;stroke-linejoin:round"
+         id="rect226"
+         width="5.6244788"
+         height="16.803846"
+         x="60.003468"
+         y="31.046293" />
+      <rect
+         style="fill:#4d4d4d;stroke:none;stroke-width:0.431734;stroke-linecap:round;stroke-linejoin:round"
+         id="rect227"
+         width="1.5428003"
+         height="16.389286"
+         x="63.883797"
+         y="31.271374" />
+      <rect
+         style="fill:#4d4d4d;stroke:none;stroke-width:0.179742;stroke-linecap:round;stroke-linejoin:round"
+         id="rect228"
+         width="4.9903655"
+         height="0.87820953"
+         x="70.326546"
+         y="16.338049" />
+      <path
+         style="fill:#666666;fill-opacity:1;stroke:#333333;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.745098"
+         d="m 65.747026,19.510489 h 14.00388"
+         id="path228" />
+      <path
+         style="fill:#666666;fill-opacity:1;stroke:#333333;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.745098"
+         d="M 65.794498,46.616302 H 79.750906"
+         id="path229" />
+    </g>
+  </g>
+</svg>

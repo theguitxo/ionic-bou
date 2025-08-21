@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="29.617516mm"
+   height="30.726669mm"
+   viewBox="0 0 29.617516 30.726669"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(-92.360304,-134.4739)">
+    <g
+       id="carretilla_morro_2"
+       transform="rotate(45,-47.127731,137.47319)"
+       style="display:inline">
+      <path
+         style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.799999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 107.23649,167.61931 c -3.5738,0.89443 -2.03123,2.64158 -2.89572,3.98755"
+         id="path263"
+         transform="matrix(-1,0,0,1,175.45801,-149.17134)" />
+      <path
+         id="path84"
+         style="fill:#deaa87;stroke:#a05a2c;stroke-width:0.55759;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 67.394674,20.672006 c -7.89e-4,0.04 -0.0046,0.07892 -0.0046,0.119165 v 26.173548 h 7.442727 V 20.791171 c 0,-0.04024 -0.0038,-0.07917 -0.0046,-0.119165 z" />
+      <path
+         id="path83"
+         style="display:inline;fill:#ff0000;stroke:#800000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 74.86158,46.993514 h -7.500317 v 5.793962 c 0,2.077606 1.672553,3.750158 3.750159,3.750158 2.077606,0 3.750158,-1.672552 3.750158,-3.750158 z"
+         transform="translate(1.125e-6)" />
+      <g
+         id="g85"
+         style="display:inline;fill:#ffd42a;fill-opacity:1;stroke:#aa8800;stroke-opacity:1"
+         transform="translate(1.125e-6)">
+        <rect
+           style="fill:#ffd42a;fill-opacity:1;stroke:#aa8800;stroke-width:0.396396;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           id="rect84"
+           width="9.3987341"
+           height="6.8476496"
+           x="66.39534"
+           y="39.407551" />
+        <rect
+           style="fill:#ffd42a;fill-opacity:1;stroke:#aa8800;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           id="rect85"
+           width="5.10217"
+           height="5.3035712"
+           x="61.263386"
+           y="40.031418" />
+      </g>
+    </g>
+  </g>
+</svg>

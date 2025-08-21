@@ -1,0 +1,58 @@
+.title-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.fire-points-container {
+  padding-top: 1rem;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.fire-points-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.fire-points-item {
+  height: 45cqh;
+  border-radius: 1.5rem;
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  border: solid 2px var(--tetradic-fourth-dark-color);
+}
+
+.buttons-container {
+  padding: 0.5rem 0;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-between;
+  flex: 1 1 auto;
+
+  & div {
+    width: 50%;
+  }
+
+  & ion-button {
+    width: 50%;
+    height: 100%;
+  }
+
+  &.center {
+    justify-content: center;
+  }
+}
+
+h3 {
+  background-color: var(--tetradic-fourth-light-color);
+  color: var(--tetradic-fourth-dark-color);
+  padding: 0.5rem 1rem;
+  border-radius: 0.75rem;
+  border: solid 2px var(--tetradic-fourth-dark-color);
+}

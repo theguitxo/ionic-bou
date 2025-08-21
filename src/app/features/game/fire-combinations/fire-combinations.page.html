@@ -1,0 +1,77 @@
+<swiper-container #firePointsSwiper>
+  @for (gameFirePoint of gameFirePoints(); track gameFirePoint; let isFirst =
+  $first; let isLast = $last; let idx = $index ) {
+  <swiper-slide class="h-full">
+    <div class="main-container playing">
+      <div class="title-container">
+        <ion-avatar slot="start">
+          <img [src]="gameFirePoint.avatarImage" />
+        </ion-avatar>
+        <h2>{{ gameFirePoint.translateKey | translate }}</h2>
+      </div>
+      <div class="fire-points-container">
+        <div class="fire-points-buttons">
+          <button
+            class="primary-button full"
+            [class.disabled]="showHeadValue()"
+            [disabled]="showHeadValue()"
+            (click)="showHead()"
+          >
+            {{ 'FIRE_POINTS.HEAD_POINTS' | translate }}
+          </button>
+          <button
+            class="primary-button full"
+            [class.disabled]="showBackValue()"
+            [disabled]="showBackValue()"
+            (click)="showBack()"
+          >
+            {{ 'FIRE_POINTS.BACK_POINTS' | translate }}
+          </button>
+        </div>
+        <div>
+          @if (showHeadValue()) { @if(gameFirePoint.fireworksPoints) {
+          <div
+            class="fire-points-item"
+            slot="content"
+            [style.backgroundImage]="'url(' + gameFirePoint.backgroundImage + ')'"
+          >
+            <app-head-fire-points
+              [points]="gameFirePoint.fireworksPoints"
+              [mode]="'SHOW'"
+              (showFirework)="showFireWork($event)"
+            />
+          </div>
+          }} @if (showBackValue()) { @if(gameFirePoint.fireworksPoints) {
+          <div
+            class="fire-points-item"
+            slot="content"
+            [style.backgroundImage]="'url(' + gameFirePoint.backgroundImage + ')'"
+          >
+            <app-back-fire-points
+              [points]="gameFirePoint.fireworksPoints"
+              [mode]="'SHOW'"
+              (showFirework)="showFireWork($event)"
+            />
+          </div>
+          }}
+        </div>
+      </div>
+      <div class="buttons-container" [class.center]="isFirst">
+        @if(!isFirst) {
+        <button class="primary-button full" (click)="previousFirePoint()">
+          {{ nextPreviousButtonLabel().get(idx)?.previous| translate }}
+        </button>
+        } @if(!isLast) {
+        <button class="primary-button full" (click)="nextFirePoint()">
+          {{ nextPreviousButtonLabel().get(idx)?.next | translate }}
+        </button>
+        } @if (isLast) {
+        <button class="primary-button full" (click)="showFirePointsList()">
+          {{ 'BUTTONS.START' | translate }}
+        </button>
+        }
+      </div>
+    </div>
+  </swiper-slide>
+  }
+</swiper-container>

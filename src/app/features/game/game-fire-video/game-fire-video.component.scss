@@ -1,0 +1,26 @@
+.main-container {
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem;
+  border: solid 2px #000;
+  border-radius: 1rem;
+  background-size: cover;
+}
+
+.score-text {
+  font-family: luckiestguy;
+  font-size: 1.5rem;
+  letter-spacing: 0.125rem;
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.video-container {
+  width: 90%;
+  border-radius: 1rem;
+  overflow: hidden;
+  & video {
+    width: 100%;
+  }
+}

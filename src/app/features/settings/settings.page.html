@@ -1,0 +1,83 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button icon="chevron-back-outline"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      <div class="title">
+        <div>{{ 'CONFIGURATION.TITLE' | translate }}</div>
+        <div class="version">{{ 'CONFIGURATION.VERSION' | translate }}: {{ gameVersion() }}</div>
+      </div>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true" class="ion-padding">
+  <!-- language -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title [class]="'settings-card-title'">{{ 'CONFIGURATION.LANGUAGE.TITLE' | translate }}<ion-icon
+          name="help-circle-outline" (click)="openHelp(settingsOptions.LANGUAGE)"></ion-icon></ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-radio-group [value]="languageValue()" (ionChange)="languageChange($event)">
+        @for (option of languageOptions(); track option.value) {
+        <ion-item>
+          <ion-radio [value]="option.value">
+            {{ option.label | translate }}
+          </ion-radio>
+        </ion-item>
+        }
+      </ion-radio-group>
+    </ion-card-content>
+  </ion-card>
+  <!-- difficulty -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title [class]="'settings-card-title'">{{ 'CONFIGURATION.GAME_DIFFICULTY.TITLE' | translate }}<ion-icon
+          name="help-circle-outline" (click)="openHelp(settingsOptions.GAME_DIFFICULTY)"></ion-icon></ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-radio-group [value]="gameDifficultyValue()" (ionChange)="gameDifficultyChange($event)">
+        @for (option of gameDifficultyOptions(); track option.value) {
+        <ion-item>
+          <ion-radio [value]="option.value">
+            {{ option.label | translate }}
+          </ion-radio>
+        </ion-item>
+        }
+      </ion-radio-group>
+    </ion-card-content>
+  </ion-card>
+  <!-- precision -->
+  <!-- <ion-card>
+    <ion-card-header>
+      <ion-card-title [class]="'settings-card-title'"
+        >{{ 'CONFIGURATION.POINTS_PRECISION.TITLE' | translate }}
+        <ion-icon
+          name="help-circle-outline"
+          (click)="openHelp(settingsOptions.POINTS_PRECISION)"
+        ></ion-icon
+      ></ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-radio-group
+        [value]="pointsPrecisionValue()"
+        (ionChange)="precisionChange($event)"
+      >
+        @for (option of pointsPrecisionOptions(); track option.value) {
+        <ion-item>
+          <ion-radio [value]="option.value">
+            {{ option.label | translate }}
+          </ion-radio>
+        </ion-item>
+        }
+      </ion-radio-group>
+    </ion-card-content>
+  </ion-card> -->
+</ion-content>
+
+<ion-footer class="ion-no-border ion-padding">
+  <button class="primary-button full" (click)="returnHome()">
+    {{ 'BUTTONS.RETURN_HOME' | translate }}
+  </button>
+</ion-footer>
