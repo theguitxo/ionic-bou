@@ -68,15 +68,6 @@ export class SettingsService {
     this.saveSettings();
   }
 
-  // get pointsPrecision(): POINTS_PRECISION {
-  //   return this._settings.pointsPrecision ?? DEFAULT_POINTS_PRECISION;
-  // }
-
-  // set pointsPrecision(value: POINTS_PRECISION) {
-  //   this._settings.pointsPrecision = value;
-  //   this.saveSettings();
-  // }
-
   get gameDifficulty(): GAME_DIFFICULTY {
     return this._settings.gameDifficulty ?? DEFAULT_GAME_DIFFICULTY;
   }

@@ -90,24 +90,6 @@ export class SettingsPage implements ViewDidEnter {
     undefined
   );
 
-  // protected pointsPrecisionOptions = signal<RadioOption<POINTS_PRECISION>[]>([
-  //   {
-  //     value: POINTS_PRECISION.STANDART,
-  //     label: 'CONFIGURATION.POINTS_PRECISION.OPTIONS.STANDART',
-  //   },
-  //   {
-  //     value: POINTS_PRECISION.NEAR,
-  //     label: 'CONFIGURATION.POINTS_PRECISION.OPTIONS.NEAR',
-  //   },
-  //   {
-  //     value: POINTS_PRECISION.EXACT,
-  //     label: 'CONFIGURATION.POINTS_PRECISION.OPTIONS.EXACT',
-  //   },
-  // ]);
-  // protected pointsPrecisionValue = signal<POINTS_PRECISION | undefined>(
-  //   undefined
-  // );
-
   ionViewDidEnter(): void {
     this.setSettingsValues();
   }
@@ -118,7 +100,6 @@ export class SettingsPage implements ViewDidEnter {
 
   private setSettingsValues(): void {
     this.languageValue.set(this.settingsService.language);
-    // this.pointsPrecisionValue.set(this.settingsService.pointsPrecision);
     this.gameDifficultyValue.set(this.settingsService.gameDifficulty);
   }
 
@@ -134,12 +115,6 @@ export class SettingsPage implements ViewDidEnter {
       this.settingsService.gameDifficulty = event.detail.value;
     }
   }
-
-  // protected precisionChange(event: CustomEvent): void {
-  //   if (event.detail?.value) {
-  //     this.settingsService.pointsPrecision = event.detail.value;
-  //   }
-  // }
 
   protected async openHelp(option: SETTINGS_OPTIONS): Promise<void> {
     const modal = await this.modalCtrl.create({
